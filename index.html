@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Enter City Name" spellcheck="false">
+            <button><img src ="/Weather/images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="/Weather/images/clouds.png"class="weather-icon">
+            <h1 class="temp">22&deg;c</h1>
+            <h2 class="city">New York</h2>
+            <h3 class="country">US</h3>
+            <h4 class="description">Cloudy</h4>
+            <h5 class="date">Monday 26 Oct 2020</h5>
+            <div class="details">
+                <div class="col">
+                    <img src="/Weather/images/humidity.png">
+                    <div>
+                      <p class="humidity">50%</p>
+                      <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/Weather/images/wind.png">
+                    <div>
+                      <p class="wind">15 km/h</p>
+                      <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="Weather.js"></script>
+</html>
